@@ -47,6 +47,7 @@
     position: fixed;
     top: 5%;
     left: 31%;
+    transition: all 0.5s ease-in-out;
 }
 .modal hr{
     margin-bottom: 20px;

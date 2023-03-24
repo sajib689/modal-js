@@ -11,6 +11,7 @@
     background-color: #005289;
     width: 100%;
     height: 100vh;
+    position: relative;
 }
 .info{
     text-align: center;
@@ -36,16 +37,31 @@
     cursor: pointer;
 }
 .modal {
+    display: none;
     width: 500px;
     text-align: center;
     height: auto;
     background-color: #fcffcf;
     padding: 10px 20px 20px 20px;
     border-radius: 5px;
+    position: fixed;
+    top: 5%;
+    left: 31%;
 }
 .modal hr{
     margin-bottom: 20px;
 }
 .modal p{
     margin-top: 20px;
+}
+.cross{
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    font-size: 35px;
+    color: #005289;
+    cursor: pointer;
+    background-color: #fcffcf;
+    border: 0;
 }
